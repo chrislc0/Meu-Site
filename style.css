@@ -1,0 +1,127 @@
+body{
+    background-color: #f8e77d;
+    margin: 0;
+   font-family: "Supermercado One", sans-serif;
+   padding: 0;
+}
+.logo{
+    border-radius: 100%;
+  border: 3px  solid;
+   border-color: black #aa9d37;
+    
+}
+#menu{
+    background-color: #a52a2a;
+    height: 1400px;
+    width: 220px;
+   margin-top: -30px;
+    text-align: center;
+box-shadow: 2px 0px 3px rgba(0, 0, 0, 0.3);
+}
+.logo{
+    margin-top: 30px;
+    width: 175px;
+    box-shadow: 4px 6px 4px rgba(0, 0, 0, 0.3);
+}
+h1, h2{
+     font-size: 1.2rem;
+     text-shadow: 4px 6px 4px rgba(0, 0, 0, 0.3)
+
+}
+
+.nome{
+    font-family: Brush Script MT ;
+}
+.link1,.link2,.link3{
+    text-decoration: none;
+    font-size: 20pt;
+   flex-direction: column;
+    display: flex;
+    margin: 1rem 0;
+    color: white;
+    transition: all 0.7s ease-in;
+    
+}
+
+.link1:hover ,.link2:hover, .link3:hover{
+    background-color: #db5f5f9a;
+    font-size: 1.8rem;
+    color: rgba(110, 103, 103, 0.712) ;
+    text-shadow: 4px 6px 4px black ;
+
+}
+
+header{
+    float: left;
+    
+}
+#info02, #info03, #info04, #info05 ,#info06 ,#info07 ,#info08 {
+    background-color: aliceblue;
+    margin: 1rem 1rem 3.5rem 1rem;
+    width: 250px;
+    height: 110px;
+    padding: 3.5rem;
+    border-radius: 1rem;
+    box-shadow: 4px 6px 4px rgba(0, 0, 0, 0.3);
+    
+}
+#info01{
+    background-color: aliceblue;
+    border-radius: 1rem;
+    margin: 1rem 1rem 3.5rem 15rem ;
+    padding: 0.7rem;
+    box-shadow: 4px 6px 4px rgba(0, 0, 0, 0.3);
+
+}
+   
+#rodape {
+padding: 2rem;
+background-color: aliceblue;
+clear: both;
+text-align: center;
+
+}
+
+#conteudo{
+    flex-wrap: wrap;
+    display: flex;
+}
+
+#rodape2 {
+    background-color: rgb(221, 214, 214);
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    transition: all 1s ease;
+}
+
+#rodape2:hover {
+    background-color: #aa9d37;
+    color: rgba(110, 103, 103, 0.712);
+}
+
+hr{
+margin: 0% 0;
+ border-top: 2px solid black;
+}
+.link_2{
+    
+     background-color: aliceblue;
+    border-radius: 1rem;
+    margin: 1rem 1rem 3.5rem 15rem ;
+    padding: 0.7rem;
+    box-shadow: 4px 6px 4px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+ 
+}
+.link_2 a {
+    text-decoration: none;
+color: black;
+font-weight: 500;
+font-size: 1.4rem;
+font-family: "Supermercado One", sans-serif;
+}
+
+
