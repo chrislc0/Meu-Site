@@ -1,0 +1,13 @@
+body{
+    background-image: url(https://wallpapers.com/images/high/linux-penguin-vs-windows-x35ma16yy1f7av38.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+height: 100vh;
+}
+.cor-caixa-de-texto-cor{
+    color: aqua;
+}
+td{
+    color: black;
+}
